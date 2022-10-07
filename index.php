@@ -33,13 +33,13 @@ $currentdate = $year.'-'.$month.'-'.$n; ?>
 		<span style="cursor: pointer;">
 <?php 
 $wd= date('w', strtotime($currentdate));
-	 if($wd == 0){echo 'Sun';}
-elseif($wd == 1){echo 'Mon';}
-elseif($wd == 2){echo 'Tue';}
-elseif($wd == 3){echo 'Wed';}
-elseif($wd == 4){echo 'Thu';}
-elseif($wd == 5){echo 'Fri';}
-elseif($wd == 6){echo 'Sat';}
+	 if($wd == 0){echo 'Sv';}
+elseif($wd == 1){echo 'Pi';}
+elseif($wd == 2){echo 'Ot';}
+elseif($wd == 3){echo 'Tr';}
+elseif($wd == 4){echo 'Ce';}
+elseif($wd == 5){echo 'Pk';}
+elseif($wd == 6){echo 'Se';}
 ?>
 <br>
 <?=$month.'/'.$n ?> <!-- month day -->
@@ -65,13 +65,13 @@ $currentdate = $newYear.'-'.$newMonth.'-'.$n;
 		<span style="cursor: pointer;">
 <?php 
 $wd= date('w', strtotime($currentdate));
- if($wd == 0){echo 'Sun';}
-elseif($wd == 1){echo 'Mon';}
-elseif($wd == 2){echo 'Tue';}
-elseif($wd == 3){echo 'Wed';}
-elseif($wd == 4){echo 'Thu';}
-elseif($wd == 5){echo 'Fri';}
-elseif($wd == 6){echo 'Sat';}
+  if($wd == 0){echo 'Sv';}
+ elseif($wd == 1){echo 'Pi';}
+ elseif($wd == 2){echo 'Ot';}
+ elseif($wd == 3){echo 'Tr';}
+ elseif($wd == 4){echo 'Ce';}
+ elseif($wd == 5){echo 'Pk';}
+ elseif($wd == 6){echo 'Se';}
 ?>
 <br>
 <?=$newMonth.'/'.$n ?> <!-- month day -->
