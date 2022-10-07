@@ -4,7 +4,7 @@
 	#splide01-track {
 		margin: 35px;
 	}
-	.day {
+	.days {
 		width: 55px;
 		padding: 5px;
 		border: 2px solid #000;
@@ -13,9 +13,9 @@
 		display: inline-block;
 		margin-right: 10px;
 	}
-	.splide {
+	.calendar {
 		max-width: 680px !important;
 	}
-	.splide__slide {
+	.splide__slides {
 		cursor: pointer;
 	}

@@ -3,9 +3,14 @@
 <link rel="stylesheet" href="style.css">
 <!-- script docs -->
 <script src="jquery.min.js"></script>
+
+
+<script>
+new Splide( '.calendar' ).mount();
+</script>
 <!-- start sorce codes -->
 <center>
-<div class="splide">
+<div class="calendar">
 <div class="splide__track">
 <ul class="splide__list">
 <?php
@@ -23,7 +28,7 @@ while ($n <= $i) {
 #loop day 
 $currentdate = $year.'-'.$month.'-'.$n; ?>
 <!-- THIS MONTH -->
-<li class="splide__slide day" date='<?=$currentdate ?>'>
+<li class="splide__slides days" date='<?=$currentdate ?>'>
 	<center>
 		<span style="cursor: pointer;">
 <?php 
@@ -55,7 +60,7 @@ $currentdate = $newYear.'-'.$newMonth.'-'.$n;
 ?>
 <!-- THIS MONTH END -->
 <!-- NEXT MONTH -->
-<li class="splide__slide day" date='<?=$currentdate ?>'>
+<li class="splide__slides days" date='<?=$currentdate ?>'>
 	<center>
 		<span style="cursor: pointer;">
 <?php 
