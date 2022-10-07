@@ -11,7 +11,7 @@ new Splide( '.calendar' ).mount();
 <!-- start sorce codes -->
 <center>
 <div class="calendar">
-<div class="splide__track">
+<div class="splide__tracks">
 <ul class="splide__list">
 <?php
 // current date information
